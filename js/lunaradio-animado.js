@@ -173,12 +173,13 @@ var a = document.createElement("div");
 a.id = c + "containerinside";
 b.appendChild(a);
 d("#" + c + "containerinside").css({
-position: "relative",
-left: "0px",
-top: "0px",
-height: "100%",
-width: "100%",
-background: ub
+    position: "relative",
+    left: "0px",
+    top: "0px",
+    height: "100%",
+    width: "100%",
+    background: 'url("img/fondo.jpg") no-repeat center center',
+    "background-size": "cover"
 });
 Ua = "true" == vb && "" != Ca ? Ca +
 Wa() : Wa();
@@ -755,9 +756,9 @@ left: "-5%",
 top: "-5%",
 height: "110%",
 width: "110%",
-"-webkit-filter": "blur(0px)",
-filter: "blur(0px)",
-opacity: "0.0"
+"-webkit-filter": "blur(15px)",
+ filter: "blur(15px)",
+opacity: "0"
 });
 b = document.createElement("div");
 b.id = c + "backgroundimage1";
